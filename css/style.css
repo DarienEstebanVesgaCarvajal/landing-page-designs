@@ -20,17 +20,17 @@ header{
     background: black;
     padding: 15px;
 }
-.header__h1{
+.header h1{
     background: violet;
     padding: 15;
     font-family: "Avenir-Heavy";
 }
-.header__p{
+.header p{
     background: greenyellow;
     padding: 15px;
     font-family: "Avenir-Roman";
 }
-.header__button{
+.header button{
     background: turquoise;
     padding: 15px;
     font-family: "Avenir-Heavy";
