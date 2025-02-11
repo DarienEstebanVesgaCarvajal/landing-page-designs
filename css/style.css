@@ -22,8 +22,17 @@ header{
 }
 .header h1{
     background: violet;
-    padding: 15;
+    /* padding: 15px; */
     font-family: "Avenir-Heavy";
+    font-size: 62px;
+    width: 600px;
+    height: 100px;
+    position: absolute;
+    top: 77px;
+    left: 647px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .header p{
     background: greenyellow;
@@ -33,5 +42,5 @@ header{
 .header button{
     background: turquoise;
     padding: 15px;
-    font-family: "Avenir-Heavy";
+    font-family: "Avenir-Roman";
 }
