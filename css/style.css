@@ -16,45 +16,66 @@ body{
 
             /*** Header ***/
 
-header{
-    /* background: red; */
-    /* padding: 5px; */
-    width: 607px;
-    height: 350px;
+header {
+    /* Positioning */
     position: absolute;
     top: 50px;
     left: 627px;
+    
+    /* Dimensions */
+    width: 607px;
+    height: 350px;
 }
-.header h1{
-    /* background: violet; */
+
+.header h1 {
+    /* Typography */
     font-family: "Avenir-Heavy";
     font-size: 62px;
     text-align: center;
+    
+    /* Colors */
     color: var(--color-1);
 }
-.header p{
-    /* background: greenyellow; */
+
+.header p {
+    /* Spacing */
     margin-top: 24px;
+    
+    /* Typography */
     font-family: "Avenir-Roman";
     font-size: 26px;
     text-align: center;
+    
+    /* Colors & Effects */
     color: var(--color-1);
     opacity: 80%;
 }
-.header button{
-    background: var(--color-1);
-    margin-top: 24px;
-    width: 158px;
-    height: 54px;
-    border-radius: 18px;
+
+.header button {
+    /* Positioning */
     position: absolute;
     left: 50%;
     transform: translate(-50%);
+    
+    /* Spacing */
+    margin-top: 24px;
+    
+    /* Dimensions */
+    width: 158px;
+    height: 54px;
+    
+    /* Visual Styles */
+    background: var(--color-1);
     border: none;
+    border-radius: 18px;
 }
-.header button a{
+
+.header button a {
+    /* Typography */
+    font-family: "Avenir-Roman";
+    font-size: 18px;
+    
+    /* Link Styles */
     text-decoration: none;
     color: var(--color-2);
-    font-size: 18px;
-    font-family: "Avenir-Roman";
 }
