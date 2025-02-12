@@ -17,27 +17,44 @@ body{
             /*** Header ***/
 
 header{
-    background: black;
-    padding: 5px;
-    width: 600px;
-    height: 275px;
+    /* background: red; */
+    /* padding: 5px; */
+    width: 607px;
+    height: 350px;
     position: absolute;
     top: 50px;
     left: 627px;
 }
 .header h1{
-    background: violet;
+    /* background: violet; */
     font-family: "Avenir-Heavy";
     font-size: 62px;
     text-align: center;
+    color: var(--color-1);
 }
 .header p{
-    background: greenyellow;
-    padding: 15px;
+    /* background: greenyellow; */
+    margin-top: 24px;
     font-family: "Avenir-Roman";
+    font-size: 26px;
+    text-align: center;
+    color: var(--color-1);
+    opacity: 80%;
 }
 .header button{
-    background: turquoise;
-    padding: 15px;
+    background: var(--color-1);
+    margin-top: 24px;
+    width: 158px;
+    height: 54px;
+    border-radius: 18px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border: none;
+}
+.header button a{
+    text-decoration: none;
+    color: var(--color-2);
+    font-size: 18px;
     font-family: "Avenir-Roman";
 }
