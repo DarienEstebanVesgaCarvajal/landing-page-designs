@@ -4,3 +4,54 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+            /*** Header ***/
+
+header{
+    background: violet;
+    padding: 1px;
+}
+header h1{
+    background: turquoise;
+    padding: 1px;
+}
+header p{
+    background: whitesmoke;
+    padding: 1px;
+}
+header button{
+    background: lightgray;
+    padding: 1px;
+}
+
+            /*** Pictures ***/
+
+.up{
+    background: black;
+    padding: 1px;
+}
+.up-left{
+    background: wheat;
+    padding: 1px;
+}
+.up-right{
+    background: rebeccapurple;
+    padding: 1px;
+}
+
+.down{
+    background: red;
+    padding: 1px;
+}
+.down-left{
+    background: greenyellow;
+    padding: 1px;
+}
+.down-middle{
+    background: aquamarine;
+    padding: 1px;
+}
+.down-right{
+    background: yellow;
+    padding: 1px;
+}
