@@ -5,28 +5,61 @@
     box-sizing: border-box;
 }
 
+            /*** Body ***/
+
+body{
+    background: var(--color-1);
+}
+
             /*** Header ***/
 
 header{
     background: violet;
     padding: 1px;
+    width: 1440px;
+    height: 490px;
+    margin: 0 auto;
+    position: relative;
 }
 header h1{
     background: turquoise;
-    padding: 1px;
+    /* padding: 1px; */
+    font-family: "Avenir-Heavy";
+    font-size: 56px;
+    line-height: 80px;
+    color: var(--color-2);
+    width: 400px;
+    top: 320;
+    left: 0;
 }
 header p{
     background: whitesmoke;
-    padding: 1px;
+    /* padding: 1px; */
+    font-family: "Avenir-Roman";
+    font-size: 26px;
+    color: var(--color-2);
+    opacity: 80%;
+    margin-top: 24px;
+    line-height: 40px;
+    width: 386px;
 }
 header button{
-    background: lightgray;
-    padding: 1px;
+    background: var(--color-2);
+    /* padding: 1px; */
+    border: none;
+    font-family: "Avenir-Roman";
+    font-size: 18px;
+    border-radius: 16px;
+    width: 157px;
+    height: 50px;
+    margin-top: 24px;
+    position: absolute;
+    bottom: 0;
 }
 
             /*** Pictures ***/
 
-.up{
+/* .up{
     background: black;
     padding: 1px;
 }
@@ -54,4 +87,4 @@ header button{
 .down-right{
     background: yellow;
     padding: 1px;
-}
+} */
