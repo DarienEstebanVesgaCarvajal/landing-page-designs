@@ -1,0 +1,41 @@
+@import url(variables.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Avenir-Heavy";
+    padding: 5vw;
+    font-size: 2vw;
+}
+
+section {  
+    display: flex;
+    gap: 2vw;
+}  
+
+button {  
+    background-color: #007BFF;  
+    border: none;  
+    border-radius: 2vw;  
+    padding: 2vw 4vw;  
+    cursor: pointer;  
+    font-size: 2vw;  
+    color: white;  
+    transition: none;  
+}  
+
+button a {  
+    text-decoration: none;  
+    color: white;  
+}  
+
+button:hover {  
+    background-color: #0056b3;  
+}
