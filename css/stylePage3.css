@@ -1,0 +1,75 @@
+@import url(variablesPage3.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+            /*** Body ***/
+
+body{
+    background: var(--color-1);
+}
+
+            /*** Header ***/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw;
+    margin-top: 2vw;
+}
+
+.title{
+    font-family: "Avenir-Heavy";
+    font-size: 3vw;
+    padding-inline-start: 5vw;
+}  
+
+.text-and-button{
+    font-family: "Avenir-Roman";
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 45vw;
+    width: 100%;
+    padding-inline-end: 7vw;
+}  
+
+p{
+    font-size: 2vw;
+    opacity: 80%;
+}
+
+button{
+    margin-top: 1.5vw;
+    background: var(--color-2);
+    border: none;
+    border-radius: 16px;
+    padding: 1vw 2vw;
+}
+
+a{
+    color: var(--color-1);
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+            /*** Image ***/
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    margin-top: 1vw;
+    max-width: 100%;
+    height: auto;
+}
+
+.image img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
