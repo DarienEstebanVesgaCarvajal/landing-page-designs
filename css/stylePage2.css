@@ -14,7 +14,7 @@ body{
             /*** Header ***/
 
 header{
-    background: violet;
+    /* background: violet; */
     padding: 1px;
     width: 1440px;
     height: 490px;
@@ -22,7 +22,7 @@ header{
     position: relative;
 }
 header h1{
-    background: turquoise;
+    /* background: turquoise; */
     /* padding: 1px; */
     font-family: "Avenir-Heavy";
     font-size: 56px;
